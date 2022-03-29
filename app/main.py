@@ -59,8 +59,6 @@ class ImageGeneration:
             up, low = self.settingbounds()
             x_inc = (abs(up[0][0] - up[1][0]) / (self.column-1))
             y_inc = (abs(up[0][1] - low[0][1]) / (self.row-1))
-            x_inc = round(x_inc, 2)
-            y_inc = round(y_inc, 2)
 
             solution = []
 
