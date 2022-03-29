@@ -4,7 +4,7 @@
 
 A webapp that return pixel coordinates is response to the Corner coordinates and size of the image. The coordinates and size is passed to the server in form of POST requests in specific format described below. Response is a matrix containing the image pixel coordinates.
 
-##Installation
+## Installation
 
 1. Clone/Download repository
 
